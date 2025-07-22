@@ -1,0 +1,66 @@
+/* .box-sizing {
+  background-color: purple;
+  height: 700px;
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* parent div ke center korar way */
+
+/* 1= display: flex;
+  justify-content: center;
+  align-items: center; */
+/* 2= display: grid;
+  place-content: center;
+  or 
+  place-items: center; */
+
+/* .content-box {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  box-sizing: content-box;
+  padding: 80px;
+}
+.border-box {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 80px;
+}  */
+
+.flag-green {
+  height: 400px;
+  width: 500px;
+  background-color: green;
+  position: relative;
+}
+
+.red-round {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.white-round {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
